@@ -10,7 +10,7 @@ app.use(cors());
 app.use(bodyParser.json());
  
 // DECLARE JWT-secret
-const JWT_Secret = 'your_secret_key';
+const JWT_Secret = 'secret_key';
 
 var testUser = { user: 'izan', password: 'izan'};
 
